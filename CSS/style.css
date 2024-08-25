@@ -1,0 +1,125 @@
+#wrapper{
+   display: grid;
+    grid-template-areas: "nestgrid1 nestgrid1 nestgrid1";
+}
+div{
+    border: solid 1px white;
+}
+#nestgrid1{
+    grid-area: nestgrid1;
+    display: grid;
+    grid-template-areas: "name home about contact";
+    text-align: center;
+    padding: 25px;
+    grid-gap: 25px;
+    background-color: black;
+}
+#name{
+    padding: 25px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+#home{
+    padding:25px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+#about{
+    padding:25px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+#contact{
+    padding: 25px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+}
+#title1{
+    padding: 0;
+    text-align: center;
+}
+#mountainbackground{
+    width: 1331px;
+}
+#elishatitle{
+    text-align: center;
+}
+#schools{
+    font-size: 30px;
+    text-align: center
+}
+#botany{
+    width: 300px;
+    margin-left: 300px;
+}
+#alfriston{
+    width: 250px;
+    margin-left: 175px;
+}
+#aboutmeheading{
+    text-align: center;
+}
+.abouttitle{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 180px;
+    padding-inline-end: 180px;
+}
+.paragraphs{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+}
+.aboutimages{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 110px;
+    padding-inline-end: 110px;
+    margin-top: 65px;
+}
+.p1{
+    margin-left: 50px;
+}
+.p2{
+    margin-left: 450px;
+}
+.contacth1{
+    text-align: center;
+}
+.headers{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#gmailimage{
+    width: 50px;
+}
+#outlook{
+    width: 50px;
+}
+#imessage
+{
+width: 50px;
+}
+#img1{
+    width: 50px;
+}
+#img3{
+    width: 50px;
+}
+#1{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+}
+
